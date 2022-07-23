@@ -15,7 +15,7 @@
                     src="./assets/img/footer/linkedin.png" height="55" width="55"></a></li>
     </ul>
     <center id="cr">
-        Copyright 2021 &copy; KIIT International Model United Nations
+        Copyright 2022 &copy; KIIT International Model United Nations
         <br><a href="copyright.html" target="_blank">PRIVACY POLICY</a>
     </center>
 </div>
