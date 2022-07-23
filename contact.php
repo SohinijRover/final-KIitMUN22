@@ -91,9 +91,9 @@
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
 
-            <a class="navbar-brand" href="/">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+        <a class="navbar-brand" href="/">
+                <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+                <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
                     class="nav-logo">
             </a>
 
@@ -189,7 +189,7 @@
 
         <section id="contact-second">
             <div class="m-auto">
-                <h1>Connect With <b>Us</b></h1>
+                <h1>Connect With Us</h1>
                 <hr>
         </section>
 

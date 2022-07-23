@@ -6,19 +6,11 @@
 ?>
 
 <head>
-<<<<<<< HEAD
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title> KIIT MUN </title>
 	<meta name='description' content="Official Website of KIITMUN 2020">
-=======
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title> KIIT eMUN </title>
-    <meta name='description' content="Official Website of KIITMUN 2020">
->>>>>>> 0552a0645942b51aa18c31c9df9c342eed7b2e98
 
 
 
@@ -132,9 +124,10 @@
     <section class="body-content">
         <nav class="navbar navbar-expand-lg navbar-light">
 
-            <a class="navbar-brand" href="/">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-                <img style="height:57px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2">
+        <a class="navbar-brand" href="/">
+                <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+                <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+                    class="nav-logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
