@@ -189,7 +189,7 @@
 
         <section id="contact-second">
             <div class="m-auto">
-                <h1>Connect With <b>Us</b></h1>
+                <h1>Connect With Us</h1>
                 <hr>
         </section>
 
