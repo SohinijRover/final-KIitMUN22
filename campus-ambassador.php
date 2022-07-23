@@ -1,42 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/fol.ico" type="image/icon" sizes="16x16">
-    <!-- <link rel="stylesheet" href="comingsoon.css"> -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>KIIT MUN</title>
+    <link rel="stylesheet" href="darkM.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light">
 
-    <link rel="stylesheet" href="./soon.css">
+    <a class="navbar-brand" href="/">
+        <img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+        <img style="height:70px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+            class="nav-logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="" role="button">
+            <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
+        </span>
+    </button>
+
+
+    <div class="collapse navbar-collapse " id="navbar">
+        <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class="menu-item active" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="menu-item" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="menu-item" data-toggle="dropdown">MUN</a>
+                <ul class="dropdown-menu">
+                    <li><a href="committees.html" class="dropdown-item">Committees</li></a>
+                    <!-- <li><a href="agenda.html" class="dropdown-item">Agenda</li></a> -->
+                    <!-- <li><a href="eb.html" class="dropdown-item">Executive Board</li></a> -->
+
+
+                    <!-- <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
+               <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
+               <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
+               </li> -->
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="menu-item" href="gallery.php">Gallery</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+           <a class="menu-item" data-toggle="dropdown">Partners</a>
+           <ul class="dropdown-menu">
+               <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
+               <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
+           </ul>
+       </li> -->
+            <li class="nav-item">
+                <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
+            </li>
+            <li class="nav-item">
+                <a class="menu-item" href="contact.php">Contact</a>
+            </li>
+
+
+            <li class="nav-item dropdown-btn">
+                <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+            </li>
+            <li class="dark">
+                <img src="assets/img/sun.png" id="icon" .mx-2>
+            </li>
+    </div>
+</nav>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title> KIIT MUN </title>
+    <meta name='description' content="Official Website of KIITMUN 2022">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700,900" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/index2019.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+
+    <!-- Custom JS -->
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/committee.js"></script>
+
+    <script>
+    $(window).on("load", function() {
+        $("body").css("overflow-y", "hidden");
+        setTimeout(function() {
+            $(".loading").addClass("fadeOut");
+            $(".loading").hide();
+            $(".body-content").addClass("fadeIn");
+            $(".body-content").css("opacity", "1");
+            $("body").css("overflow-y", "auto");
+        }, 0.5 * 1000);
+    });
+    $("#myCarousel").carousel();
+    $(function() {
+        $(document).scroll(function() {
+            var $nav = $(".navbar");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            var $navItem = $(".menu-item");
+            $navItem.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            var $navLogo = $(".nav-logo");
+            if ($(this).scrollTop() > $nav.height())
+                $navLogo.attr("src", "./assets/img/logo/e-mun-logo-black.png");
+            else
+                $navLogo.attr("src", "./assets/img/logo/e-mun-logo.png");
+        });
+    });
+    </script>
+
+    <style>
+    .arrow_box {
+        border: 2px solid #c4c4c5;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Poppins';
+        border-radius: 8px;
+        padding: 13px 0;
+        margin: 0 auto 22px;
+        width: 290px;
+    }
+    </style>
+    <style>
+    .healnow {
+        background: #bab86c !important;
+        color: #fff;
+        font-family: 'Poppins';
+        padding: 15px 0;
+        width: 290px;
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    </style>
+    <style>
+    .fade-carousel .slides .slide-1 {
+        background-image: url('./assets/img/banner/reg/reg3.jpg');
+        height: 80vh;
+    }
+    </style>
 
 </head>
 
 <body>
-    <div class="content-area d-flex align-items-center justify-content-center">
-        <div>
-            <img src="//placehold.it/400x200/FFF/eee?text=Logo" alt="" class="logo fade-in one">
-            <h3 class="fade-in two">Coming Soon</h3>
-            <div class="social fade-in three">
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/kiitmun/" taget="_blank">
-                            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA%2FPjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI%2BPGc%2BPHBhdGggZD0iTTMyLDMwYzAsMS4xMDQtMC44OTYsMi0yLDJIMmMtMS4xMDQsMC0yLTAuODk2LTItMlYyYzAtMS4xMDQsMC44OTYtMiwyLTJoMjhjMS4xMDQsMCwyLDAuODk2LDIsMlYzMHoiIGZpbGw9IiMzQjU5OTgiLz48cGF0aCBkPSJNMjIsMzJWMjBoNGwxLTVoLTV2LTJjMC0yLDEuMDAyLTMsMy0zaDJWNWMtMSwwLTIuMjQsMC00LDBjLTMuNjc1LDAtNiwyLjg4MS02LDd2M2gtNHY1aDR2MTJIMjJ6IiBmaWxsPSIjRkZGRkZGIiBpZD0iZiIvPjwvZz48Zy8%2BPGcvPjxnLz48Zy8%2BPGcvPjxnLz48L3N2Zz4%3D"
-                                alt="">
-                        </a>
+
+    <!-- FOR THE APP-->
+    <!-- <a target="_blank" id="myBtn" style="right: 25px;
+    bottom: 20px; position: fixed;z-index: 99;" href="https://bit.ly/KMUN19">
+            <div style="border: 2px solid black;">
+            <img style="width: 115px ; height: 125px; " src="https://kiitmun.org/wp-content/uploads/2019/09/munappqr.png" /><br>
+            <span><center> Get the App</center></span>
+            </div>
+        </a> -->
+
+    <!-- LOADING SECTION -->
+    <section class="loading">
+        <img src="./assets/img/loader.gif"
+            style="background-color: black;height: 240px !important;width: 240px !important;">
+    </section>
+
+    <section class="body-content darkmode">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="/">
+                <img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+                <img style="height:70px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+                    class="nav-logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="" role="button">
+                    <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
+                </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse " id="navbar">
+                <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="menu-item active" href="index.html">Home </a>
                     </li>
-<<<<<<< HEAD
                     <li class="nav-item">
                         <a class="menu-item" href="about.html">About</a>
                     </li>
@@ -44,28 +208,26 @@
                         <a class="menu-item" data-toggle="dropdown">MUN</a>
                         <ul class="dropdown-menu">
                             <li><a href="committees.html" class="dropdown-item">Committees</li></a>
-                            <!-- <li><a href="agenda.html" class="dropdown-item">Agenda</li></a> -->
-                            <!-- <li><a href="eb.html" class="dropdown-item">Executive Board</li></a> -->
-
-
-
+                            <li><a href="agenda.html" class="dropdown-item">Agenda</li></a>
+                            <li><a href="eb.html" class="dropdown-item">Executive Board</li></a>
                             <!-- <li><a href="study-guide.html" class="dropdown-item">Study Guide</a></li>
-                        <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
-                        <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a></li> -->
+                            <li><a href="newsletter.html" class="dropdown-item">Newsletter</a></li>
+                            <li><a href="rules-and-regulations.html" class="dropdown-item">Rules and Regulations</a>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="gallery.php">Gallery</a>
                     </li>
-                    <!--<li class="nav-item dropdown">
-                    <a class="menu-item" data-toggle="dropdown" >Partners</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
-                        <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
-                    </ul>
-                </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="menu-item" data-toggle="dropdown">Partners</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
+                            <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
+                        </ul>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="menu-item active" href="campus-ambassador.php">Campus Ambassador</a>
+                        <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
                     </li>
                     <li class="nav-item">
                         <a class="menu-item" href="contact.php">Contact</a>
@@ -73,27 +235,51 @@
 
                     <li class="nav-item dropdown-btn">
                         <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
-=======
-                    <li>
-                        <a href="https://twitter.com/kiitmun" taget="_blank">
-                            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA%2FPjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI%2BPHBhdGggZD0iTTMxLjk5Myw2LjA3N0MzMC44MTYsNi42LDI5LjU1Miw2Ljk1MywyOC4yMjMsNy4xMWMxLjM1NS0wLjgxMiwyLjM5Ni0yLjA5OCwyLjg4Ny0zLjYzICBjLTEuMjY5LDAuNzUxLTIuNjczLDEuMjk5LTQuMTY4LDEuNTkyQzI1Ljc0NCwzLjc5NywyNC4wMzgsMywyMi4xNDksM2MtMy42MjUsMC02LjU2MiwyLjkzOC02LjU2Miw2LjU2MyAgYzAsMC41MTQsMC4wNTcsMS4wMTYsMC4xNjksMS40OTZDMTAuMzAxLDEwLjc4NSw1LjQ2NSw4LjE3MiwyLjIyNyw0LjIwMWMtMC41NjQsMC45Ny0wLjg4OCwyLjA5Ny0wLjg4OCwzLjMgIGMwLDIuMjc4LDEuMTU5LDQuMjg2LDIuOTE5LDUuNDY0Yy0xLjA3NS0wLjAzNS0yLjA4Ny0wLjMyOS0yLjk3Mi0wLjgyMWMtMC4wMDEsMC4wMjctMC4wMDEsMC4wNTYtMC4wMDEsMC4wODIgIGMwLDMuMTgxLDIuMjYyLDUuODM0LDUuMjY1LDYuNDM3Yy0wLjU1LDAuMTQ5LTEuMTMsMC4yMy0xLjcyOSwwLjIzYy0wLjQyNCwwLTAuODM0LTAuMDQxLTEuMjM0LTAuMTE3ICBjMC44MzQsMi42MDYsMy4yNTksNC41MDQsNi4xMyw0LjU1OGMtMi4yNDUsMS43Ni01LjA3NSwyLjgxMS04LjE1LDIuODExYy0wLjUzLDAtMS4wNTMtMC4wMzEtMS41NjYtMC4wOTIgIEMyLjkwNSwyNy45MTMsNi4zNTUsMjksMTAuMDYyLDI5YzEyLjA3MiwwLDE4LjY3NS0xMC4wMDEsMTguNjc1LTE4LjY3NWMwLTAuMjg0LTAuMDA4LTAuNTY4LTAuMDItMC44NSAgQzMwLDguNTUsMzEuMTEyLDcuMzk1LDMxLjk5Myw2LjA3N3oiIGZpbGw9IiM1NUFDRUUiLz48Zy8%2BPGcvPjxnLz48Zy8%2BPGcvPjxnLz48L3N2Zz4%3D"
-                                alt="">
-                        </a>
->>>>>>> 079f8924862aa5e4fae4edc762b29f0b695f7a88
                     </li>
-                </ul>
+                    <li class="dark">
+                        <img src="assets/img/sun.png" id="icon" .mx-2>
+                    </li>
             </div>
-            <div class="container">
-                <div class="row">
-                    <img height="280" width="1280" src="./assets/img/coming-soon-new.png">
+        </nav>
 
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+            <!-- Overlay -->
+            <div class="overlay"></div>
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item slides active">
+                    <div class="slide-1"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Campus Ambassador</h1>
+                        </hgroup>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="copy-right">
-        &copy; KIIT MUN
-    </div>
+
+        <!-- <section id="contact-second">
+            <div class="m-auto">
+                <h1>Registration <br><b>Closed</h1>
+                <hr>
+            </div>
+        </section> -->
+
+        <section id="committees-second">
+            <h1 align="center">
+                Coming Soon.
+            </h1>
+        </section>
+
+
+
+        </div>
+
+        <?php include "./partials/footer.php"; ?>
+    </section>
+
 </body>
 
 </html>
