@@ -215,7 +215,7 @@
                     </li>
 
                     <li class="nav-item dropdown-btn">
-                        <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
+                        <a class="menu-item dropdown-btn-item" href="registrations.html">Registrations</a>
                     </li>
             </div>
         </nav>
