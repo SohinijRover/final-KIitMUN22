@@ -20,7 +20,7 @@
 
 
     <div class="collapse navbar-collapse " id="navbar">
-        <ul style="margin-left: 10vw;" class="navbar-nav navbar-right">
+        <ul style="margin-left: 7vw;" class="navbar-nav navbar-right">
             <li class="nav-item">
                 <a class="menu-item active" href="index.html">Home </a>
             </li>
