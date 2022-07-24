@@ -6,8 +6,8 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
     <a class="navbar-brand" href="/">
-        <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-        <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+        <img style="height:47px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+        <img style="height:70px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
             class="nav-logo">
     </a>
 
@@ -253,7 +253,7 @@
                     <div class="slide-1"></div>
                     <div class="hero">
                         <hgroup>
-                            <h1>Campus Ambassador</h1>
+                            <h1>Registrations</h1>
                         </hgroup>
                     </div>
                 </div>
