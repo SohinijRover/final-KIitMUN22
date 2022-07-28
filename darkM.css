@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 .dark{
- margin-left: 6.3rem;
+ margin-left: inherit;
 }
 #cr{
     color: #d25227 !important;
