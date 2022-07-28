@@ -468,7 +468,6 @@ function getCountries(committeId) {
 'Norway',
 'United Arab Emirates',
 ],
-  'Joint Crisis Committee (JCC)': ['Sher Mohammad Abbas Stanekzai (Deputy Head of Taliban\'s Political Office in Doha)','Abdul Hakim Haqqani (Head of Taliban\'s Negotiating Team)','Anas Haqqani (Representative of the Haqqani faction in Taliban\'s Negotiating Team)','Abdullah Abdullah (Head of the Afghan Delegation)','Hamid Karzai (Former President of Afghanistan)','Fawzia Koofi (Women\'s Rights Activist and Member of the Afghan Delegation)','Khairullah Khairkhwa (Minister of Information and Culture of the Taliban’s Afghan government)','Maulavi Mohammad Yaqub Mujahid (Minister of Defense of the Taliban’s Afghan government)','UN SecretaryGeneral\'s Special Representative for Afghanistan','United States of America','United Kingdom','France','Germany','Uzbekistan','Turkmenistan','Tajikistan','Joseph Borrell, EU','China','Russian Federation','Pakistan','Iran','Turkey','UAE','Kyrgyzstan','Syria','Armenia'],
 	'World Health Assembly (WHA)':['Afghanistan',
 'Albania',
 'Algeria',
@@ -1634,7 +1633,9 @@ function getCountries(committeId) {
 'Yemen',
 'Zambia',
 'Zimbabwe',
-]  
+],
+  'Joint Crisis Committee (JCC)': ['Sher Mohammad Abbas Stanekzai (Deputy Head of Talibans Political Office in Doha)','Abdul Hakim Haqqani (Head of Talibans Negotiating Team)','Anas Haqqani (Representative of the Haqqani faction in Talibans Negotiating Team)','Abdullah Abdullah (Head of the Afghan Delegation)','Hamid Karzai (Former President of Afghanistan)','Fawzia Koofi (Women\'s Rights Activist and Member of the Afghan Delegation)','Khairullah Khairkhwa (Minister of Information and Culture of the Taliban’s Afghan government)','Maulavi Mohammad Yaqub Mujahid (Minister of Defense of the Talibans Afghan government)','UN SecretaryGenerals Special Representative for Afghanistan','United States of America','United Kingdom','France','Germany','Uzbekistan','Turkmenistan','Tajikistan','Joseph Borrell, EU','China','Russian Federation','Pakistan','Iran','Turkey','UAE','Kyrgyzstan','Syria','Armenia']
+
 
   }
 

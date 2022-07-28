@@ -5,8 +5,8 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
     <a class="navbar-brand" href="/">
-        <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
-        <img style="height:80px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
+        <img style="height:65px !important ; margin-top:-4px;" src="assets/img/logo/mun-logo.png" id="img1">
+        <img style="height:65px !important ; margin-top:-4px;" src="assets/img/logo/e-mun-logo.png" id="img2"
             class="nav-logo">
     </a>
 
@@ -233,7 +233,7 @@
                     </li>
 
                     <li class="nav-item dropdown-btn">
-                        <a class="menu-item dropdown-btn-item" href="registrations.html">Registrations</a>
+                        <a class="menu-item dropdown-btn-item" href="registration.php">Registrations</a>
                     </li>
                     <li class="dark">
                         <img src="assets/img/sun.png" id="icon" .mx-2>

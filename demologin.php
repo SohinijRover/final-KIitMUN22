@@ -18,7 +18,7 @@
 		}
 		else{
 			$email = mysqli_real_escape_string($conn, $_POST['form-email']);
-			$password = hash("sha256",mysqli_real_escape_string($conn, $_POST['form-password']));
+			$password = mysqli_real_escape_string($conn, $_POST['form-password']);
 			$delegation = mysqli_real_escape_string($conn, $_POST['form-delegation']);
 
 			$sql="";

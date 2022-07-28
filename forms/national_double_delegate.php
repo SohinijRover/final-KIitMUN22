@@ -89,7 +89,7 @@
 
 
             $ref_id = mysqli_real_escape_string($conn, $_POST['national-double-ref-id']);
-            $password = hash("sha256",mysqli_real_escape_string($conn, $_POST['national-double-password']));
+            $password = mysqli_real_escape_string($conn, $_POST['national-double-password']);
 
             
 
@@ -461,8 +461,8 @@
             </div>
             <br>
             <div class="col-xs-6" style="padding: 0; padding-right: 1vmin;">
-                <label for="password">Password</label>
-                <input type="password" name="national-double-password" class="form-control" id="password"  placeholder="Enter a Strong Password" required>
+                <label for="password">Do you want Accomodation?*</label>
+                <input type="text" name="national-double-password" class="form-control" id="password"  placeholder="Enter YES or NO" required>
             </div>
             <br>
 

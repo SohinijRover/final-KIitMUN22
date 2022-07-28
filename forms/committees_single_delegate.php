@@ -6,12 +6,12 @@
 <option>World Bank</option>
 <option>United Nations Security Council (UNSC)</option>
 <option>Joint Crisis Committee (JCC)</option>
-<option>International Press (IP)</option>
 <option>United Nations Special Political and Decolonization (SPECPOL)</option>
 <option>United Nations Organisation of Islamic Cooperation (OIC)</option>
 <option>United Nations Peacebuilding Commission</option>
 <option>United Nations Conference on Trade and Development</option>
 <option>United Nations Commission on Crime Prevention and Criminal Justice</option>
 <option>International Atomic Energy Agency</option>
+<option>International Press (IP)</option>
 
 
