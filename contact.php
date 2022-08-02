@@ -129,16 +129,16 @@
                     <li class="nav-item">
                         <a class="menu-item" href="gallery.php">Gallery</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <a class="menu-item" data-toggle="dropdown" >Partners</a>
                         <ul class="dropdown-menu">
                             <li><a href="sponsors.html" class="dropdown-item">Sponsors</li></a>
-                            <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li>
+                            <!-- <li><a href="collaborators.html" class="dropdown-item">Collaborators</a></li> -->
                         </ul>
-                    </li> -->
-                    <li class="nav-item">
+                    </li>   
+                    <!-- <li class="nav-item">
                         <a class="menu-item" href="campus-ambassador.php">Campus Ambassador</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="menu-item active" href="#">Contact</a>
                     </li>
